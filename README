@@ -1,0 +1,16 @@
+Some simple tools in form of bash scripts to help with recurring SVN tasks like:
+
+- pin externals of paths in a working copy
+- create TAG with pinned externals of a given path
+- create RELEASE with pinned externals of a given path
+
+TAGs do pin relative externals, whileas RELEASEs will only pin non-local externals to allow for patching/svnup.
+
+Authors:
+
+- Robert Schulze
+- Steffen Gransow
+
+Versions:
+
+0.1 - 2010/04/19 - Initial release
